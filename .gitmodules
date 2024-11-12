@@ -1,3 +1,6 @@
 [submodule "Autoformation-Laravel"]
 	path = Autoformation-Laravel
 	url = https://github.com/AbderrafieElmrabet/Autoformation-Laravel.git
+[submodule "conception"]
+	path = conception
+	url = https://github.com/TamraouiAbdelouahab/conception
