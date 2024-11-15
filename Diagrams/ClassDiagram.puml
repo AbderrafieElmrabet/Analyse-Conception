@@ -1,0 +1,20 @@
+@startuml
+class Trainer {
+    +name: String
+    +email: String
+    -password: String
+    +add()
+    +updateLearner()
+    +deleteLearner()
+}
+
+class Learner {
+    +name: String
+    +email: String
+    -password: String
+    +viewFormation()
+    +viewFormationLink()
+}
+
+Trainer "1" -- "many" Learner : adds >
+@enduml

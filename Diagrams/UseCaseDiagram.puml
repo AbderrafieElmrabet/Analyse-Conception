@@ -1,0 +1,18 @@
+@startuml
+left to right direction
+actor Trainer
+actor Learner
+
+usecase "Add Learner" as UC_AddLearner
+usecase "Update Learner" as UC_UpdateLearner
+usecase "Delete Learner" as UC_DeleteLearner
+usecase "View Learner List" as UC_ViewList
+usecase "View Learner Details" as UC_ViewDetails
+
+Trainer -- UC_AddLearner
+Trainer -- UC_UpdateLearner
+Trainer -- UC_DeleteLearner
+Trainer -- UC_ViewList
+Learner -- UC_ViewList
+Learner -- UC_ViewDetails
+@enduml
